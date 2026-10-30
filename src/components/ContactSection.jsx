@@ -223,12 +223,13 @@ export default function ContactSection() {
                     <strong className="block text-obsidian text-xs uppercase tracking-wider font-semibold mb-0.5">
                       Office Hours
                     </strong>
-                    <p className="text-muted text-sm font-medium">
-                      Open today: 08:00 am – 07:00 pm
-                    </p>
-                    <p className="text-muted text-xs">
-                      Open daily: 8:00 am - 7:00 pm
-                    </p>
+                    <div className="flex items-center gap-2 mt-1 mb-1.5">
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                        Open Daily
+                      </span>
+                      <span className="text-sm font-semibold text-obsidian">8:00 am – 7:00 pm</span>
+                    </div>
                     <p className="text-xs text-champagne-dark font-medium mt-2 italic">
                       "Appointments outside office hours available upon request. Just call!"
                     </p>
@@ -275,3 +276,4 @@ export default function ContactSection() {
     </section>
   );
 }
+

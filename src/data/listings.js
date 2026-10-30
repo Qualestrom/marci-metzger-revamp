@@ -96,3 +96,4 @@ export const FEATURED_LISTINGS = [
     date: '2023-10-02'
   }
 ];
+

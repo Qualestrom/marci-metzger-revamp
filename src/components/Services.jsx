@@ -18,7 +18,7 @@ export default function Services() {
           </h2>
           <div className="w-16 h-0.5 bg-champagne mx-auto mb-6" />
           <p className="text-base sm:text-lg text-muted font-light leading-relaxed">
-            Whether purchasing your next dream home, optimizing commercial assets, or securing financing, we ensure a seamless and confident transaction.
+            Comprehensive guidance across residential acquisitions, commercial investments, and mortgage consultation in Southern Nevada.
           </p>
         </div>
 
@@ -86,3 +86,4 @@ export default function Services() {
     </section>
   );
 }
+

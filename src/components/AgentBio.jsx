@@ -60,7 +60,7 @@ export default function AgentBio() {
             </h3>
 
             <p className="text-base sm:text-lg text-muted font-light leading-relaxed mb-6">
-              With nearly 30 years of hands-on real estate mastery across Pahrump, Nye County, and the greater Southern Nevada corridor, Marci Metzger provides unparalleled local advocacy. From first-time homebuyers to commercial investors and luxury residential sellers, she turns high-stakes decisions into confident, seamless victories.
+              Providing trusted local advocacy and hands-on real estate mastery across Pahrump, Nye County, and the greater Southern Nevada corridor. From first-time homebuyers to commercial investors and luxury residential sellers, Marci turns high-stakes decisions into confident, seamless victories.
             </p>
 
             {/* Direct Phone Link */}
@@ -118,3 +118,4 @@ export default function AgentBio() {
     </section>
   );
 }
+
