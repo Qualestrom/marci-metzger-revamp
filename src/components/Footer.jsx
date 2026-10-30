@@ -56,7 +56,7 @@ export default function Footer() {
               <img
                 src={ASSETS.logo.src}
                 alt={ASSETS.logo.alt}
-                className="h-10 sm:h-12 w-auto brightness-200"
+                className="h-10 sm:h-12 w-auto brightness-0 invert drop-shadow-sm"
                 onError={(e) => {
                   e.currentTarget.src = ASSETS.logo.fallback;
                 }}
@@ -108,3 +108,4 @@ export default function Footer() {
     </footer>
   );
 }
+

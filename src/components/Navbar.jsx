@@ -46,8 +46,8 @@ export default function Navbar() {
             <img
               src={ASSETS.logo.src}
               alt={ASSETS.logo.alt}
-              className={`h-11 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 ${
-                !isScrolled ? 'brightness-110 drop-shadow-sm' : ''
+              className={`h-11 sm:h-12 w-auto object-contain transition-all duration-300 group-hover:scale-105 ${
+                !isScrolled ? 'brightness-0 invert drop-shadow-md' : ''
               }`}
               onError={(e) => {
                 e.currentTarget.src = ASSETS.logo.fallback;
@@ -139,3 +139,4 @@ export default function Navbar() {
     </header>
   );
 }
+
